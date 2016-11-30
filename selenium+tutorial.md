@@ -5,14 +5,14 @@ from selenium import webdriver
 ```
 
 Start a driver with phantomJS.
-This is like open phantomJS browser. param is the path for phantomJS. 
+This is like to open phantomJS-like browser. The param is path for phantomJS. 
 
 
 ```python
 driver = webdriver.PhantomJS('./phantomjs-2.1.1-windows/bin/phantomjs.exe')
 ```
 
-Use method get to open a url
+Use the method get to open an url
 
 
 ```python
@@ -43,11 +43,10 @@ driver.find_element_by_xpath('xxx').is_enabled()
 
 
 
-    False
 
 
 
-Switch to frams by swith_to_frame.
+Switch among web frames by the method swith_to_frame.
 Remenber: always call switch_to_default_content after done with a frame
 
 
@@ -66,7 +65,7 @@ driver.switch_to_default_content()
 driver.switch_to_frame('mainFrame')
 ```
 
-Select could use to manipulate with selection elements
+Select can be used to deal with selection elements
 
 
 ```python
