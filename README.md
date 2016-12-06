@@ -1,4 +1,4 @@
-# temporary-selenium-tuto
+# What in this repo
 
 Selerium tutorial - How to use selerium to simulate browser interactions
 
